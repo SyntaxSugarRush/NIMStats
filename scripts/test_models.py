@@ -23,21 +23,25 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 OUTPUT_FILE = SCRIPT_DIR / "results.json"
 
 ALL_MODELS = [
-    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-    "moonshotai/kimi-k2.6",
-    "google/gemma-4-31b-it",
-    "meta/llama-3.2-90b-vision-instruct",
-    "nvidia/nemotron-3-ultra-550b-a55b",
-    "nvidia/nemotron-3.5-lightning-30b-a3b",
-    "openai/gpt-oss-20b",
     "z-ai/glm-5.3-flash",
-    "z-ai/glm-5.3",
-    "nvidia/nemotron-nano-3-30b-a3b",
-    "mistralai/mistral-large",
-    "deepseek-ai/deepseek-v4.1-flash",
-    "nvidia/nemotron-4-340b-instruct",
+    "mistralai/mistral-large-4-1t-a52b",
     "stepfun-ai/step-5-preview",
+    "poolside/laguna-xs-2.1",
+    "openai/gpt-oss-20b",
+    "meta/muse-glimmer-30b",
+    "meta/llama-3.2-11b-vision-instruct",
+    "meta/llama-3.2-90b-vision-instruct",
+    "minimaxai/minimax-m3.1-flash",
+    "deepseek-ai/deepseek-v4.1-flash",
+    "google/gemma-4-31b-it",
+    "google/diffusiongemma-26b-a4b-it",
+    "nvidia/nemotron-3-ultra-550b-a55b",
     "nvidia/nemotron-3-super-120b-a12b",
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "nvidia/nemotron-3.5-bolt-e4b",
+    "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "nvidia/nemotron-3.5-super-vl-120b-a12b",
+    "nvidia/riva-translate-4b-instruct-v2",
 ]
 
 GLM_THINKING_MODELS = {"z-ai/glm-5.3-flash", "z-ai/glm-5.3"}

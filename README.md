@@ -4,14 +4,14 @@
 
 [![CI](https://github.com/MauroDruwel/NIMStats/actions/workflows/benchmark.yml/badge.svg)](https://github.com/MauroDruwel/NIMStats/actions)
 [![Live Dashboard](https://img.shields.io/badge/🌐%20live-nimstats.maurodruwel.be-76b900?style=flat-square)](https://nimstats.maurodruwel.be/)
-[![Models](https://img.shields.io/badge/models-22-blue?style=flat-square)](https://build.nvidia.com/models)
+[![Models](https://img.shields.io/badge/models-19-blue?style=flat-square)](https://build.nvidia.com/models)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/MauroDruwel/NIMStats/pulls)
 [![Stars](https://img.shields.io/github/stars/MauroDruwel/NIMStats?style=flat-square&color=gold)](https://github.com/MauroDruwel/NIMStats/stargazers)
 
 <br/>
 
-> **Community-driven benchmarking of 22 NVIDIA NIM models — fully automated, zero infra cost, self-hostable in minutes.**
+> **Community-driven benchmarking of 19 NVIDIA NIM models — fully automated, zero infra cost, self-hostable in minutes.**
 
 <br/>
 
@@ -23,7 +23,7 @@
 
 ## ✨ What is NIMStats?
 
-NIMStats automatically benchmarks **22 NVIDIA NIM models** every hour using GitHub Actions and publishes the results to a beautiful, interactive dashboard. No servers, no subscriptions — just fork, add your API key, and go.
+NIMStats automatically benchmarks **19 NVIDIA NIM models** every hour using GitHub Actions and publishes the results to a beautiful, interactive dashboard. No servers, no subscriptions — just fork, add your API key, and go.
 
 <div align="center">
 
@@ -129,34 +129,33 @@ NIMStats exposes lightweight, static API endpoints for querying the #1 model in 
 ## 🤖 Benchmarked Models
 
 <details>
-<summary><b>22 models across 11 providers — click to expand</b></summary>
+<summary><b>19 chat &amp; tool-use models across 10 providers — click to expand</b></summary>
 
 <br/>
 
-| Provider | Model | Highlight |
-|----------|-------|-----------|
-| **DeepSeek** | `deepseek-ai/deepseek-v4-flash` | Fast MoE, optimized for speed |
-| **DeepSeek** | `deepseek-ai/deepseek-v4-pro` | Professional-grade reasoning |
-| **Z-AI** | `z-ai/glm-5.2` | Superior code understanding |
-| **MiniMax** | `minimaxai/minimax-m2.7` | Efficient inference model |
-| **MiniMax** | `minimaxai/minimax-m3` | Latest MiniMax generation |
-| **NVIDIA** | `nvidia/nemotron-3-super-120b-a12b` | NVIDIA's 120B flagship |
-| **NVIDIA** | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` | Compact omni reasoning model |
-| **NVIDIA** | `nvidia/llama-3.3-nemotron-super-49b-v1.5` | Nemotron Super 49B v1.5 |
-| **Moonshot** | `moonshotai/kimi-k2.6` | Context-optimized model |
-| **OpenAI** | `openai/gpt-oss-120b` | Open-source 120B |
-| **Google** | `google/gemma-4-31b-it` | Lightweight edge inference |
-| **Qwen** | `qwen/qwen3.5-397b-a17b` | Flagship Qwen (397B) |
-| **Qwen** | `qwen/qwen3.5-122b-a10b` | Mid-range Qwen 3.5 MoE |
-| **Qwen** | `qwen/qwen3-next-80b-a3b-instruct` | Next-gen Qwen (80B MoE) |
-| **Mistral** | `mistralai/mistral-large-3-675b-instruct-2512` | Largest Mistral (675B) |
-| **Mistral** | `mistralai/mistral-medium-3.5-128b` | Efficient medium-scale Mistral |
-| **Mistral** | `mistralai/mistral-small-4-119b-2603` | Mistral Small 4 (119B) |
-| **Meta** | `meta/llama-3.3-70b-instruct` | Llama 3.3 70B |
-| **Meta** | `meta/llama-4-maverick-17b-128e-instruct` | Llama 4 Maverick (128 experts) |
-| **Meta** | `meta/llama-3.2-90b-vision-instruct` | Multimodal 90B vision model |
-| **StepFun** | `stepfun-ai/step-3.5-flash` | Ultra-fast flash model |
-| **StepFun** | `stepfun-ai/step-3.7-flash` | Latest high-performance flash |
+| Model |
+|-------|
+| `deepseek-ai/deepseek-v4.1-flash` |
+| `google/diffusiongemma-26b-a4b-it` |
+| `google/gemma-4-31b-it` |
+| `meta/llama-3.2-11b-vision-instruct` |
+| `meta/llama-3.2-90b-vision-instruct` |
+| `meta/muse-glimmer-30b` |
+| `minimaxai/minimax-m3.1-flash` |
+| `mistralai/mistral-large-4-1t-a52b` |
+| `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` |
+| `nvidia/nemotron-3-super-120b-a12b` |
+| `nvidia/nemotron-3-ultra-550b-a55b` |
+| `nvidia/nemotron-3.5-bolt-e4b` |
+| `nvidia/nemotron-3.5-lightning-30b-a3b` |
+| `nvidia/nemotron-3.5-super-vl-120b-a12b` |
+| `nvidia/riva-translate-4b-instruct-v2` |
+| `openai/gpt-oss-20b` |
+| `poolside/laguna-xs-2.1` |
+| `stepfun-ai/step-5-preview` |
+| `z-ai/glm-5.3-flash` |
+
+Embedding, reranking, parsing, safety-guard, speech, video, and protein-design NIMs are excluded — they do not serve the benchmark's chat completion request.
 
 </details>
 
